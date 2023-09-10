@@ -1,10 +1,10 @@
 {
   "name": "@hackbg/miscreant-esm",
-  "version": "0.3.2-patch.2",
+  "version": "0.3.2-patch.3",
   "description": "(ESM port) Misuse resistant symmetric encryption library providing AES-SIV (RFC 5297), AES-PMAC-SIV, and STREAM constructions",
   "homepage": "https://miscreant.io",
   "main": "src/index.ts",
-  "files": [ "!ubik", "*.ts", "*.dist.*" ],
+  "files": [ "!ubik", "src/*.ts", "src/**/*.ts" ],
   "types": "src/index.ts",
   "author": "Tony Arcieri",
   "license": "MIT",
