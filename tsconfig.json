@@ -1,5 +1,5 @@
 {
-    "exclude": [ "ubik/**/*", "dist/**/*", "node_modules/**/*", "bench/**/*" ],
+    "exclude": [ "ubik/**/*", "dist/**/*", "node_modules/**/*", "bench/**/*", "test/**/*" ],
     "compilerOptions": {
         "target": "ES6",
         "module": "commonjs",
