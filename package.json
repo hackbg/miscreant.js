@@ -1,9 +1,10 @@
 {
-  "name": "miscreant",
-  "version": "0.3.2",
-  "description": "Misuse resistant symmetric encryption library providing AES-SIV (RFC 5297), AES-PMAC-SIV, and STREAM constructions",
+  "name": "@hackbg/miscreant",
+  "version": "0.3.2-patch.1",
+  "description": "(ESM port) Misuse resistant symmetric encryption library providing AES-SIV (RFC 5297), AES-PMAC-SIV, and STREAM constructions",
   "homepage": "https://miscreant.io",
-  "main": "release/index.js",
+  "main": "src/index.ts",
+  "files": [ "!ubik" ],
   "types": "src/index.ts",
   "author": "Tony Arcieri",
   "license": "MIT",
@@ -34,9 +35,6 @@
     "async-file": "^2.0.2",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "gulp": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-typescript": "^5.0.0",
     "mocha": "^7.0.0",
     "mocha-typescript": "^1.1.0",
     "source-map-loader": "^0.2.3",
@@ -45,7 +43,6 @@
     "typescript": "^3.6.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webcrypto-core": "1.0.17",
-    "webpack": "^4.39.3",
-    "webpack-stream": "^5.2.1"
+    "@hackbg/ubik": "./ubik"
   }
 }
