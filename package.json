@@ -1,5 +1,5 @@
 {
-  "name": "@hackbg/miscreant",
+  "name": "@hackbg/miscreant-esm",
   "version": "0.3.2-patch.1",
   "description": "(ESM port) Misuse resistant symmetric encryption library providing AES-SIV (RFC 5297), AES-PMAC-SIV, and STREAM constructions",
   "homepage": "https://miscreant.io",
@@ -25,9 +25,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+    "test": "mocha --require ts-node/register test/**/*.spec.ts",
+    "check": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/utf8": "^3.0.1",
     "@types/chai": "^4.2.0",
     "@types/chai-as-promised": "^7.1.0",
     "@types/mocha": "^5.2.7",
